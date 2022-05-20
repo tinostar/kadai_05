@@ -19,7 +19,7 @@ function utcToJSTime(utcTime) {
 // データ取得
 function ajaxRequest(lat, long) {
     const url = 'https://api.openweathermap.org/data/2.5/forecast';
-    const appId = '';
+    const appId = '*****';
 
     $.ajax({
         url: url,
